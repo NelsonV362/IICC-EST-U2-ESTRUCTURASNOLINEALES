@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB1DDDC5-8F03-1D37-1CBD-B6A45469E8E2" name="PRO_PROVINCIA">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>C674AF03-C0E5-8B50-86AA-D7E2BBE19D10</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prov_id" id="21B399A6-FBB6-5659-1C37-DA2BD60E5A0E">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el codigo  del producto.]]></commentInRDBMS>
+<generatorID>4D53FBBB-8719-D864-3577-A7CABD15EBF2</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prov_nombre" id="64022AEE-F20B-DAC4-04B4-DE99422E9B9F">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el nombre de la provincia.]]></commentInRDBMS>
+<generatorID>5C6F2C0E-221F-24CB-31B3-DA1BA958E91D</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAI_REGION_ciu_id" id="C620CAAC-916A-6BE5-8E41-2BDD478F79AE">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>17F0DBB7-C3ED-5BAA-45EA-30F2220ABD23</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="782EC4D9-8CFE-9C14-B7AF-107DD9199327" referredColumn="5C5D77F4-5F0B-E0EC-F01A-BCF206254B3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9E27215-AB46-CB39-E59B-6D9CCBF273BD" name="PRO_PROVINCIA_PK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>C14EE4CA-5876-BC23-2A22-3542EAC5428E</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B399A6-FBB6-5659-1C37-DA2BD60E5A0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3822489C-C7C4-0155-319A-EF7AF3036940" name="PRO_PROVINCIA_PAI_REGION_FK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>519E69A4-B096-77BA-B48B-519AC8A8B673</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C620CAAC-916A-6BE5-8E41-2BDD478F79AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

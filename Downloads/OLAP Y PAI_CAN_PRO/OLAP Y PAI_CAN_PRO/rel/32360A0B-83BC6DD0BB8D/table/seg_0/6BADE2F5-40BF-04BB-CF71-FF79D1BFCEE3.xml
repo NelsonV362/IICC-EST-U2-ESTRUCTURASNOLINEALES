@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BADE2F5-40BF-04BB-CF71-FF79D1BFCEE3" name="PAIS">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>78463190-A680-7E79-3107-AE5CC88317EF</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pai_id" id="D27034BD-4129-79E1-F15F-E95F74243628">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<generatorID>02214FCB-B21E-2D1F-4558-DC65014A6C7B</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pai_nombre" id="BB9E0FD8-FF60-ECAC-5D21-5B33BE1BA557">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre pais]]></commentInRDBMS>
+<generatorID>849E25F0-C1D9-516B-B48B-7ECD0FF3EA6A</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95F32B63-D1AE-2A03-0244-B81458CC50D5" name="PAIS_PK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>9B3EA0D6-1550-E081-BD36-B89F7700750B</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB9E0FD8-FF60-ECAC-5D21-5B33BE1BA557"/>
+<colUsage columnID="D27034BD-4129-79E1-F15F-E95F74243628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

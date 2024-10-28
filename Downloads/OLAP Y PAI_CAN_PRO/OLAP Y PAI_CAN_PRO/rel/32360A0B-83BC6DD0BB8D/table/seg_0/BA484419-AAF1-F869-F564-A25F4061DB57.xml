@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA484419-AAF1-F869-F564-A25F4061DB57" name="DIM_DETALLES">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>E8145E1C-5658-C318-EC25-D1BA5A55DD74</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="det_id" id="9C113FFC-F59D-A47F-9DFE-23221001100E">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el id del numero]]></commentInRDBMS>
+<generatorID>567E17A0-FF55-D735-E48F-0A2202F8B797</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="det_cantidad" id="88EC8F76-EC50-F1BB-C156-3EE05B800580">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es la catidad de los productos]]></commentInRDBMS>
+<generatorID>F3455D6C-89E6-D85B-E97A-9C02727CC2A0</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="det_pre_unitario" id="708FDE7C-9B15-0A58-5C4A-7F8B2EA8B0B1">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el precio unitario]]></commentInRDBMS>
+<generatorID>EF2ABAB3-CDD9-8883-48F4-9E6D5E3C41CA</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="det_subtotal" id="BF18E123-EF29-BC0B-E2E8-0ED220485EBD">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el sub total del detallle.]]></commentInRDBMS>
+<generatorID>4C6EE6E6-4146-3013-CE46-F80D3E7B7E62</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="det_iva" id="50435ABC-C3E3-B9E7-F9BE-BCD2114697BC">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el detalle de iva.]]></commentInRDBMS>
+<generatorID>E4D7841B-012D-0D16-7D34-8382589EDD3A</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="det_total" id="4A4B094F-9F32-7D97-6960-35DB2183ED33">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el detalle total .]]></commentInRDBMS>
+<generatorID>35FC03DA-8F0F-D77E-4725-1C4847A224AF</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_CLIENTE_cli_id" id="92B41EBC-1F10-EA60-19CE-996828B5437B">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>F1E9CBC0-AD33-9ED0-900D-A9DE6D153024</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CD4AA34-06F1-8B84-FFFD-DFF0F44F0D63" referredColumn="82AB8D3C-1CD9-51BE-8A4B-014644033F81"/>
+</associations>
+</Column>
+<Column name="DIM_TIEMPO_tie_fecha_id" id="F9921817-8976-2DE0-AA9A-5EC22977EA8B">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>19A3B8AD-43D8-1F26-0373-D0A6C7A7BA79</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_PRODUCTO_pro_id" id="D87E3A8E-5A9A-D1F5-83BC-CE6C56B20B9A">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>650FC491-366C-FCC6-0C7A-F8FECA223C99</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF77972-F448-96CE-6E08-C7CE679F1CF4" referredColumn="831829D9-634F-1C0D-0A93-20E8E1CBF6D8"/>
+</associations>
+</Column>
+<Column name="DIM_PROVEEDOR_pro_id" id="C7496E95-8C4C-FC59-F646-6A54D651E73F">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>9C1A521C-D174-08AD-B2D4-C1F419132073</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04C385F0-B285-9F3A-884D-9270D59AEB49" referredColumn="6331D79B-7619-7E7F-2C15-5578ACF6DB88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AA80482-D99E-A1E8-A7B5-6C3207490D0D" name="DIM_DETALLES_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>F750C903-9FE4-B5F8-7D7A-5EECB1A19767</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C113FFC-F59D-A47F-9DFE-23221001100E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CF44E4E-0A8F-2796-2E84-8BA515A57C33" name="DIM_DETALLES_DIM_CLIENTE_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>9F10D4B9-9010-0D8E-70D3-01B57C5D40A6</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92B41EBC-1F10-EA60-19CE-996828B5437B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1DBCF5B-9B43-FB26-C8B6-527C3E5B7499" name="DIM_DETALLES_DIM_PRODUCTO_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>19975E60-6F50-4E32-A66B-87738B7F83F7</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87E3A8E-5A9A-D1F5-83BC-CE6C56B20B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C187A7FA-8602-9D53-22E6-3474239D24AA" name="DIM_DETALLES_DIM_PROVEEDOR_FK">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>78709D6D-B5FB-C0F3-00E1-F15FBBECF668</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7496E95-8C4C-FC59-F646-6A54D651E73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

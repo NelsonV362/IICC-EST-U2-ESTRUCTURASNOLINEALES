@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C47BCB7-6E13-03E2-2A02-E6AFD08E25D1" name="DIM_REGI">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>6BABA57C-59E9-5C03-7917-0FBAFCB205F5</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reg_id" id="88E90AED-0C84-D386-A191-450004AF33D9">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el registro id,]]></commentInRDBMS>
+<generatorID>0E3255A7-66F8-24D7-8D77-6FAA19527863</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_fecha" id="A44DE650-853F-9450-FA79-3C1C672CB17D">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es la fecha.]]></commentInRDBMS>
+<generatorID>9A091DC8-1EDC-A6AC-7BB3-1163E875C837</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_PROVINCIA_prov_id" id="111A5B40-1450-9BD4-8016-B55BB9545478">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>D248FA7E-195F-4673-DE48-B95DCB0524E4</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7D39D2A-6DFB-0B87-50DF-C054490B5E86" referredColumn="21B399A6-FBB6-5659-1C37-DA2BD60E5A0E"/>
+</associations>
+</Column>
+<Column name="DIM_CLIENTE_cli_id" id="1A85E9CC-9B88-F0F1-FBDD-8CDBF0292743">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>89251E26-BF94-B8D3-C89C-313D31F4731E</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A0C828E-5ED6-2130-45B0-ECD832ED04EA" referredColumn="82AB8D3C-1CD9-51BE-8A4B-014644033F81"/>
+</associations>
+</Column>
+<Column name="DIM_PROVEEDOR_pro_id" id="2A9E4C65-AF97-04B6-7EA8-66116B1AFFC9">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>DDF805B4-01DD-00A5-F7EE-5391355199CD</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="960DB1EA-9585-BFF6-DEDA-CB688D567169" referredColumn="6331D79B-7619-7E7F-2C15-5578ACF6DB88"/>
+</associations>
+</Column>
+<Column name="DIM_VENDEDOR_ven_id" id="2615E0F4-3161-35A3-654C-1731A5DD7D0F">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>94E20523-A92B-0C0D-0257-B10993C22003</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE033ACB-E877-05F6-5E9F-2AB47F763C83" referredColumn="6DCEB06A-15FF-2D28-E43F-FF7163B414F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51A442E7-0DC3-1AA2-4034-818EEF20480B" name="DIM_REGI_PK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>9C041DF1-6D5B-99B9-11AE-7955A5D83826</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88E90AED-0C84-D386-A191-450004AF33D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4F5164D-9BB6-B992-A74C-F9944DC7A909" name="DIM_REGI_DIM_VENDEDOR_FK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>02424DC2-D0D5-F8EA-A91E-E6D9769F4A2E</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2615E0F4-3161-35A3-654C-1731A5DD7D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0911BC42-2B98-490F-2FDC-5A9448CE40D1" name="DIM_REGI_PRO_PROVINCIA_FK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>1CF5925D-F77E-50AE-9193-82E926FA2A97</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111A5B40-1450-9BD4-8016-B55BB9545478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C4F0D28-1980-B0F7-6375-A6026ED1214E" name="DIM_REGI_DIM_PROVEEDOR_FK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>EE529ACC-E778-280F-2DFE-BA3FCFD2619A</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9E4C65-AF97-04B6-7EA8-66116B1AFFC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="580AD1D8-7FF5-CB9E-E7E7-13D3395DC54A" name="DIM_REGI_DIM_CLIENTE_FK">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:06:07 UTC</createdTime>
+<generatorID>3DE0C510-6CD5-4862-E950-52E49DF79A40</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A85E9CC-9B88-F0F1-FBDD-8CDBF0292743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

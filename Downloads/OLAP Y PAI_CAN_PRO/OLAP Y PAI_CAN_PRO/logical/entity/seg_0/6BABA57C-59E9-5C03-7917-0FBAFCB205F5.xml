@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BABA57C-59E9-5C03-7917-0FBAFCB205F5" name="DIM_REGI">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:51:56 UTC</createdTime>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="reg_id" id="0E3255A7-66F8-24D7-8D77-6FAA19527863">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:52:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el registro id,]]></commentInRDBMS>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_fecha" id="9A091DC8-1EDC-A6AC-7BB3-1163E875C837">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:52:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es la fecha.]]></commentInRDBMS>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prov_id" id="D248FA7E-195F-4673-DE48-B95DCB0524E4">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:54:50 UTC</createdTime>
+<generatorID>1CF5925D-F77E-50AE-9193-82E926FA2A97</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<referedAttribute>4D53FBBB-8719-D864-3577-A7CABD15EBF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_id" id="89251E26-BF94-B8D3-C89C-313D31F4731E">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:57:04 UTC</createdTime>
+<generatorID>3DE0C510-6CD5-4862-E950-52E49DF79A40</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<referedAttribute>8799630A-5AAB-BCE3-FEB4-DF70E52F5F02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id1" id="DDF805B4-01DD-00A5-F7EE-5391355199CD">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:58:25 UTC</createdTime>
+<generatorID>EE529ACC-E778-280F-2DFE-BA3FCFD2619A</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<referedAttribute>0071C7DA-4A50-586F-ED1E-837D1BC53550</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ven_id" id="94E20523-A92B-0C0D-0257-B10993C22003">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:02:34 UTC</createdTime>
+<generatorID>02424DC2-D0D5-F8EA-A91E-E6D9769F4A2E</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<referedAttribute>FB75C0B0-53C8-8180-2325-BA7D5098321C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C041DF1-6D5B-99B9-11AE-7955A5D83826" name="DIM_REGI PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-23 16:53:32 UTC</createdTime>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E3255A7-66F8-24D7-8D77-6FAA19527863</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

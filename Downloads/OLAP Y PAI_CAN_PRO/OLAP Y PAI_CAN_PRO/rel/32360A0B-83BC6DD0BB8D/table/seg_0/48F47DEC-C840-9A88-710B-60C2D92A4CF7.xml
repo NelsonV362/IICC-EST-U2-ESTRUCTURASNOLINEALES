@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48F47DEC-C840-9A88-710B-60C2D92A4CF7" name="DIM_PRODUCTO">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>A80D2815-58E4-E95C-F639-A8836B4C144A</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pro_id" id="831829D9-634F-1C0D-0A93-20E8E1CBF6D8">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el codigo del producto.]]></commentInRDBMS>
+<generatorID>A079D803-28F6-0237-4AF9-4E7D76A8DC8A</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_nombre" id="10BBA4FE-496C-2499-1E0F-AC9BFFE1EB02">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el nombre del producto.]]></commentInRDBMS>
+<generatorID>4F6DB375-EE8A-6449-C368-A1D985FE591F</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_venta" id="81A9875B-5A7C-8995-29AC-AE27EFF885DF">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ea el precio del producto en venta.]]></commentInRDBMS>
+<generatorID>A306BA81-B7CF-A7DA-A283-EE22598AEBB2</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_stock" id="B0DDDAB3-019A-D883-0F19-03E173AF8446">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el stock del producto.]]></commentInRDBMS>
+<generatorID>49AE8352-8D20-6630-BC11-317029FAB93B</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_iva" id="1F19BB0D-1350-634C-A57D-45857D80CCA6">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el  iva y si es agregado es = S.]]></commentInRDBMS>
+<generatorID>F2566AF3-ECDB-83E8-5B37-82A3FFBC04E6</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_estado" id="9B712A2C-EE36-3458-A48B-01D5B53B6673">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado para ver A= Activo y D= Desactivado.]]></commentInRDBMS>
+<generatorID>4E060CD4-32E3-03C9-5753-C83ED0D7F8EF</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_cat_nombre" id="2F2DC853-2339-314B-BA69-244B9AF11DBE">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>2936B1B9-CECD-4F83-B997-F58445B769EF</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_cat_id" id="D0F400D4-6650-3CD7-8753-2CA3C2B98A0E">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>9258843B-95AA-1F84-6F67-A8AF196D7F76</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B88BFD38-FAFD-2DFE-3019-D20D1FC6E612" name="DIM_PRODUCTO_PK">
+<createdBy>Santiago</createdBy>
+<createdTime>2024-05-18 19:58:47 UTC</createdTime>
+<generatorID>6A11CF79-4AD8-4CAF-2CAD-8F3ED2FA7723</generatorID>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="831829D9-634F-1C0D-0A93-20E8E1CBF6D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

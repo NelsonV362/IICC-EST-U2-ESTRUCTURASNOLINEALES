@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIM_VEN_DIM_REG_FK" directorySegmentName="seg_0" id="02424DC2-D0D5-F8EA-A91E-E6D9769F4A2E">
+<createdBy>ESTUDIANTE</createdBy>
+<createdTime>2024-05-29 17:02:34 UTC</createdTime>
+<ownerDesignName>OLAP Y PAI_CAN_PRO</ownerDesignName>
+<engineerTo>
+<item key="32360A0B-3A41-6E57-5165-83BC6DD0BB8D" value="true"/>
+</engineerTo>
+<sourcePk>2A6345AF-28BE-ABA8-C719-A1DC0945DE05</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6EB4724-6FDB-53BB-7B94-92E510DBD441</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BABA57C-59E9-5C03-7917-0FBAFCB205F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
