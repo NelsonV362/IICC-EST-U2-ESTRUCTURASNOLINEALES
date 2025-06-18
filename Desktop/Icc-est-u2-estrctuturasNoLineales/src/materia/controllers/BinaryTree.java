@@ -55,7 +55,7 @@ if (node != null) {
         if (node != null) {
         postOrderRec(node.getIzquierdo());
          postOrderRec(node.getDerecho());
-            system.out.print(node.getValor() + " ");
+                System.out.print(node.getValor() + " ");
         }
     }
 }
